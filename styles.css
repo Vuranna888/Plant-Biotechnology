@@ -4,7 +4,6 @@ h1{
 
 table {
     table-layout: fixed;
-
 }
 
 table td {
@@ -21,8 +20,8 @@ body, html{
 .tabcontent{
     color: black;
     display: none;
-    padding: 50px;
-    height: 100%;
+    padding: 20px;
+    height: 110%;
 }
 
 .center{
@@ -36,6 +35,12 @@ body, html{
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+}
+
+.tablinks {
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Lucida Sans';
 }
 
     .tab button {
